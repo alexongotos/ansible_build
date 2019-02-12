@@ -18,6 +18,7 @@
       sudoer: True
       authorized_key_paths:
         - ../../public_keys/*.pub
+        - ./circle_ci.pub # added this line
 
     - role: install_nginx/0.0.1
 

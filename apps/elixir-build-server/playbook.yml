@@ -12,6 +12,7 @@
     - role: bootstrap/0.0.1
       authorized_key_paths:
         - ../../public_keys/*.pub
+        - ./circle_ci.pub # added this line
 
     - role: user/0.0.1
       username: admin
